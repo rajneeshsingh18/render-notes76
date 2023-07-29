@@ -1,34 +1,34 @@
 ➡️create a new template for our application with the :
-                    step 1: npm init
+                            step 1: npm init
 
 ➡️automatically generated package.json file
-                        {
-                            "name": "backend",
-                            "version": "0.0.1",
-                            "description": "",
-                            "main": "index.js",
-                            "scripts": {
-                                "test": "echo \"Error: no test specified\" && exit 1"
-                            },
-                            "author": "Matti Luukkainen",
-                            "license": "MIT"
-                        }
+                            {
+                                "name": "backend",
+                                "version": "0.0.1",
+                                "description": "",
+                                "main": "index.js",
+                                "scripts": {
+                                    "test": "echo \"Error: no test specified\" && exit 1"
+                                },
+                                "author": "Matti Luukkainen",
+                                "license": "MIT"
+                            }
 
 ➡️Let's make a small change to the scripts object:
-                        {
-                        // ...
-                        "scripts": {
-                            "start": "node index.js",
-                            "test": "echo \"Error: no test specified\" && exit 1"
-                        },
-                        // ...
-                        }
+                            {
+                            // ...
+                            "scripts": {
+                                "start": "node index.js",
+                                "test": "echo \"Error: no test specified\" && exit 1"
+                            },
+                            // ...
+                            }
 
 ➡️First version of our application by adding an index.js file           
-                        console.log("Hello world")
+                            console.log("Hello world")
 
 ➡️we can run it as an npm script:
-                        npm start
+                            npm start
 
 # ➡️Simple web server
 
