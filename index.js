@@ -120,7 +120,7 @@ const errorHandler = (error, request, response, next) => {
 app.use(errorHandler)
 
 // Define the server port
-const PORT = process.env.PORT || 3031;
+const PORT = process.env.PORT ;
 
 // Start the server
 app.listen(PORT, () => {
