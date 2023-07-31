@@ -193,4 +193,7 @@
 
                 const cors = require('cors')
                 app.use(cors())
+
+to start                                   
+                    npm run dev
  
